@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mate:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mate:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Mate:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+}
+
+.body {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    /* width: 434px; */
+}
+
+.sidebar {
+    background-color: rgb(181, 175, 230);
+    position: absolute;
+    /* width: 434px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    font-family: "Roboto Slab", serif;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover {
+    color: rgb(2, 6, 247);
+}
+
+.sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 79vw;
+    padding: 23px;
+}
+
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross {
+    margin-left: 175px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.infocontainer {
+    /* background-color: red; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.userpic img {
+    /* padding-left: 20px; */
+    height: 58vh;
+    border-left: 5px solid red;
+    border-right: 7px solid blue;
+    /* border-top: 2px solid palegreen; */
+    /* border-bottom: 2px solid rgb(236, 0, 193); */
+    border-radius: 50%;
+}
+
+.userinfo {
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 3.5em;
+    color: yellowgreen;
+    font-family: "Great Vibes", cursive;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    color: orange;
+    font-family: "Lobster Two", sans-serif;
+    font-style: italic;
+}
+
+.about {
+    font-size: 2em;
+    font-family: "Libre Baskerville", serif;
+}
+
+.moreabout {
+    font-size: 2.5em;
+    margin-top: 23px;
+    font-family: "Lora", serif;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 17px;
+    background-color: rgb(0, 153, 255);
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons button:hover {
+    color: rgb(0, 153, 255);
+    background-color: rgb(235, 76, 169);
+}
+

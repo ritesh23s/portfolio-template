@@ -1,0 +1,61 @@
+@media (max-width:1092px) {
+    .userpic img {
+     display: none;
+     
+     /* flex-direction: column; */
+    }
+
+    .blogcontainer, .introcontainer, .contactform, .servicescontainer{
+        /* background-color: red; */
+        margin:50px 8px;
+    }
+
+    .userinfo{
+        font-size: 12px;
+    }
+
+    .blogcontainer h1{
+        margin-left: 20px;
+    }
+
+    .skills{    
+        background-color: rgb(216, 254, 0);
+        /* background-color: red; */
+        margin-left: 5px;
+        width: 200px;
+        height: 6px;
+        border: 2px solid black;
+        border-radius: 2px;
+    }
+
+    .html{
+        width: 150px;
+        height: 6px;
+        background-color:green;
+    }
+
+    .cpp{
+        width: 10px;
+        height: 6px;   
+        background-color:red;
+    }
+
+    .c{
+        width: 100px;
+        height: 6px;
+        background-color: blue;
+    }
+
+    .css{
+        width: 145px;
+        height: 6px;
+        background-color: green;
+        
+    }
+
+    .javascript{
+        width: 60px;
+        height: 6px;
+        background-color: red;   
+    }
+ }

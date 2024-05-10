@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mate:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mate:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Mate:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+}
+
+.body {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    /* width: 434px; */
+}
+
+.sidebar {
+    background-color: rgb(181, 175, 230);
+    position: absolute;
+    /* width: 434px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    font-family: "Roboto Slab", serif;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover {
+    color: rgb(2, 6, 247);
+}
+
+.sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 79vw;
+    padding: 23px;
+}
+
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross {
+    margin-left: 175px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.infocontainer{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
