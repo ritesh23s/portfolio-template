@@ -29,13 +29,13 @@
     }
 
     .html{
-        width: 150px;
+        width: 195px;
         height: 6px;
         background-color:green;
     }
 
     .cpp{
-        width: 10px;
+        width: 20px;
         height: 6px;   
         background-color:red;
     }
