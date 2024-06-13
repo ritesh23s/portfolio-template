@@ -150,3 +150,15 @@
     background-color: rgb(235, 76, 169);
 }
 
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.social li a img {
+    width: 25px;
+    padding: 5px;
+}
